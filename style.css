@@ -1,0 +1,232 @@
+body {
+  background-color: #aeaeae;
+}
+
+/* navbar */
+/* .navbar {
+  position: fixed !important;
+} */
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+}
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/pexels-raj-steven-5293740.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 5rem;
+}
+/* .jumbotron .container {
+  position: relative;
+  z-index: 1;
+} */
+.jumbotron .container p {
+  color: whitesmoke;
+}
+/* .jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+} */
+.jumbotron .display-4 {
+  color: whitesmoke;
+  text-align: start;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+  padding-top: 50px;
+}
+.jumbotron .display-4 span {
+  font-weight: bold;
+}
+/* #contact h2::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b63dc;
+  width: auto;
+  margin: auto;
+  padding-bottom: 15px;
+} */
+/* about */
+#about h2 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  color: whitesmoke;
+}
+/* #about h2::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b63dc;
+  width: auto;
+  margin: auto;
+  padding-top: 15px;
+} */
+#skills h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  color: whitesmoke;
+}
+/* #skills h1::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b63dc;
+  width: auto;
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+} */
+#projects h2 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  color: whitesmoke;
+}
+/* #projects h2::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b63dc;
+  width: auto;
+  margin: auto;
+  padding-top: 15px;
+} */
+/* skills */
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+.skills .warna {
+  color: #9805bd;
+}
+
+.html {
+  width: 80%;
+  background-color: #f24501;
+}
+.css {
+  width: 60%;
+  background-color: #07a7f7;
+}
+.javascript {
+  width: 40%;
+  background-color: #c5d300;
+}
+.php {
+  width: 55%;
+  background-color: #474a8a;
+}
+.boostrap {
+  width: 50%;
+  background-color: #9805bd;
+}
+.container a {
+  margin-top: 10px;
+}
+.container .btn:hover {
+  background-color: green;
+  transition: 1s;
+}
+/* paralax */
+.paralax3 {
+  background-image: url(img/jm.jpg);
+  height: 350px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.paralax3 h2 {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: whitesmoke;
+}
+/* gallery */
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0;
+}
+/* #gallery h2::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #0b63dc;
+  width: auto;
+  margin: auto;
+  padding-top: 15px;
+} */
+/* contact */
+#contact h2 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+/* footer */
+footer {
+  /* padding: 30px 0; */
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+}
+.container h6 i {
+  text-decoration: none;
+}
+.container h6 a {
+  color: whitesmoke;
+  text-transform: none;
+}
+
+/* dekstop version */
+@media (min-width: 992px) {
+  .navbar-brand {
+    color: whitesmoke;
+  }
+  .navbar-brand:hover {
+    color: yellowgreen;
+  }
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: whitesmoke !important;
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 25px;
+  }
+  .nav-link:hover {
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron .container img {
+    margin-top: 80px;
+  }
+  .jumbotron {
+    margin-top: -65px;
+    height: 640px;
+  }
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+  .skill-img {
+    margin-top: 100px;
+  }
+}
